@@ -32,7 +32,7 @@ ENV | description
 -- | --
 `ACTION_MAIL` | Email used for the commit.
 `ACTION_NAME` | Name used for the commit.
-`ACTION_BRANCH` | Branch name to push against. _(defaults to `master`)_
+`ACTION_BRANCH` | Branch name to push against. _(defaults to the current branch)_
 `ACTION_MESSAGE` | Message used in the commit. _(defaults to `'Automated commit'`)_
 
 [buymecoffee]: https://www.buymeacoffee.com/ludeeus
