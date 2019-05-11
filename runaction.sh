@@ -12,7 +12,7 @@ fi
 
 if [ -z "$ACTION_BRANCH" ]; then
   echo "ACTION_BRANCH ENV are missing, assuming master"
-  ACTION_BRANCH='master'
+  ACTION_BRANCH=$(git symbolic-ref --short HEAD)
 fi
 
 if [ -z "$ACTION_MESSAGE" ]; then
